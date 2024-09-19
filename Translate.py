@@ -5,7 +5,7 @@ from googletrans import Translator
 trans = Translator()
 
 st.title("Welcome to Traslator module")
-txt = st.text_area("Enter Text to be converted")
+txt = st.text_area("Enter Text to be converted","Enter Text")
 
 Langauges = ['Hindi','Marathi']
 choice = st.selectbox("Langauges",Langauges)
